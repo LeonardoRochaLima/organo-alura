@@ -11,7 +11,7 @@ const Rodape = () =>{
                 </div>
                 <img src='imagens/logo.png' alt='Logo Rodapé'/>
                 <p>
-                    Desenvolvido por Leo.
+                    Desenvolvido por Leo
                 </p>
             </section> 
         </footer>

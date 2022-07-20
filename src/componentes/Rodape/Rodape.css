@@ -5,6 +5,8 @@
     background-color: #6278F7;
     align-items: center;
     background-image: url('/public/imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .rodape img {
