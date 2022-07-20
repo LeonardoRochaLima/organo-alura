@@ -1,0 +1,36 @@
+.rodape {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #6278F7;
+    align-items: center;
+    background-image: url('/public/imagens/fundo.png');
+}
+
+.rodape img {
+    width: 166px;
+    height: 63px;
+}
+
+.rodape p {
+    width: 120;
+    height: 56px;
+    line-height: 24.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.rodape .logos-redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 162.19px;
+    height: 40px;
+}
+
+.rodape .logos-redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
