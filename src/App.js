@@ -7,37 +7,37 @@ import Rodape from "./componentes/Rodape";
 function App() {
   const times = [
     {
-      nome: "Programação",
+      nome: "Administrativo",
       corPrimaria: "#57C278",
       corSecundaria: "#D9F7E9",
     },
     {
-      nome: "Front-End",
+      nome: "Comercial",
       corPrimaria: "#82CFFA",
       corSecundaria: "#E8F8FF",
     },
     {
-      nome: "Data Science",
+      nome: "Customer Success",
       corPrimaria: "#A6D157",
       corSecundaria: "#F0F8E2",
     },
     {
-      nome: "Devops",
+      nome: "Projetos",
       corPrimaria: "#E06869",
       corSecundaria: "#FDE7E8",
     },
     {
-      nome: "UX e Design",
+      nome: "Suporte | Laboratório",
       corPrimaria: "#D86EBF",
       corSecundaria: "#FAE9F5",
     },
     {
-      nome: "Mobile",
+      nome: "Datacenter",
       corPrimaria: "#FFBA05",
       corSecundaria: "#FFF5D9",
     },
     {
-      nome: "Inovação e Gestão",
+      nome: "Suporte | Chamados",
       corPrimaria: "#FF8A29",
       corSecundaria: "#FFEEDF",
     },

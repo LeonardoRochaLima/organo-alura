@@ -7,6 +7,8 @@ import { useState } from "react";
 const Formulario = (props) => {
   const [nome, setNome] = useState("");
   const [cargo, setCargo] = useState("");
+  const [ramal, setRamal] = useState("");
+  const [email, setEmail] = useState("");
   const [imagem, setImagem] = useState("");
   const [time, setTime] = useState("");
 
@@ -15,11 +17,15 @@ const Formulario = (props) => {
     props.aoColaboradorCadastrado({
       nome,
       cargo,
+      ramal,
+      email,
       imagem,
       time
     })
     setNome('')
     setCargo('')
+    setRamal('')
+    setEmail('')
     setImagem('')
     setTime('')
   };
@@ -41,6 +47,20 @@ const Formulario = (props) => {
           placeholder="Digite seu Cargo"
           valor={cargo}
           aoAlterado={(valor) => setCargo(valor)}
+        />
+        <CampoTexto
+          obrigatorio={true}
+          label="Ramal"
+          placeholder="Digite seu Cargo"
+          valor={ramal}
+          aoAlterado={(valor) => setRamal(valor)}
+        />
+        <CampoTexto
+          obrigatorio={true}
+          label="Email"
+          placeholder="Digite seu Cargo"
+          valor={email}
+          aoAlterado={(valor) => setEmail(valor)}
         />
         <CampoTexto
           label="Imagem"
