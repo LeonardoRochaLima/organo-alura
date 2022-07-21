@@ -10,8 +10,8 @@
 }
 
 .rodape img {
-    width: 166px;
-    height: 63px;
+    width: 100%;
+    max-width: 166px;
 }
 
 .rodape p {
@@ -34,6 +34,7 @@
 }
 
 .rodape .logos-redes-sociais img {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    max-width: 20px;
+    height: 20px;
 }
