@@ -30,11 +30,11 @@
     align-items: center;
     width: 162.19px;
     height: 40px;
-    cursor: pointer;
 }
 
 .rodape .logos-redes-sociais img {
     width: 100%;
     max-width: 20px;
     height: 20px;
+    cursor: pointer;
 }
